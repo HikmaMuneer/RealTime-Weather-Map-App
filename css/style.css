@@ -15,7 +15,7 @@ body {
 }
 
 #map {
-    max-width: 100%; /* Adjust the max-width as needed */
+    max-width: 80%; /* Adjust the max-width as needed */
     height: auto; /* Allow the map to adjust its height based on the width */
 }
 
@@ -29,6 +29,18 @@ body {
 
 .mapdiv :hover {
     fill:#6bd67d;
+}
+
+.container-relative {
+    position: fixed;
+    bottom: 40px; /* Adjust this value to position the table vertically */
+    right: 20px; /* Adjust this value to position the table horizontally */
+    width: 400px; /* Adjust the width of the table */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Add a transparent background with blur effect */
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
 }
 
 
@@ -263,4 +275,5 @@ h1,h2,h3,h4,h5,h6{
 
 .copyright-icons{
     margin: 20px 10px;
+    
 }
